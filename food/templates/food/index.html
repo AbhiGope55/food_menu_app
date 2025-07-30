@@ -21,6 +21,7 @@
                 </div>
                 <div class="col-md-2">
                     <a href="{% url 'food:detail' item.id%}" class="btn btn-success">Details</a>
+                    <a href="{% url 'food:update_item' item.id%}" class="btn" style="background-color: rgb(174, 174, 2); color:white;">Edit</a>
                 </div>
             </div>
         {%endfor%}
